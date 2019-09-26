@@ -24,7 +24,7 @@ const TweetStatus = ({ id }) => {
 
   if (!data || !data.tweets[0].sanitized) {
     return (<span>
-      <img alt ="cleaning" src="https://i.giphy.com/media/TG9ko7uVhkkde2eVAU/giphy.webp" />
+      <img src="cleaning.webp" alt="https://i.giphy.com/media/TG9ko7uVhkkde2eVAU/giphy.webp" />
     </span>);
   }
 
@@ -33,7 +33,7 @@ const TweetStatus = ({ id }) => {
     return (<div>
       {sanitized}
       <br/><br/>
-      <img alt="innocent" src="https://i.giphy.com/media/l3nSxBDg5obIiU9Ko/giphy.webp" />
+      <img src="innocent.webp" alt="https://i.giphy.com/media/l3nSxBDg5obIiU9Ko/giphy.webp" />
     </div>);
   }
 };
